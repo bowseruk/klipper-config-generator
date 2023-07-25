@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout><App /></Layout>,
   },
-]);
+], {basename: "/klipper-config-generator/"});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
