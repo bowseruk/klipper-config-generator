@@ -2,7 +2,7 @@
   "name": "klipper-config-generator",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bowseruk.github.io/klipper-config-generator/",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
