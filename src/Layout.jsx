@@ -1,20 +1,22 @@
+import logo from './assets/KCG_Logo.png'
+
 function Layout(props) {
     return (
         <>
             <header>
                 <nav className="navbar navbar-expand-lg bg-body tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                    <div className="container-fluid">
+                        <a className="navbar-brand" href="#">
+                            <img src={logo} width="30" height="30" class="d-inline-block align-top" alt="" />
+                            Klipper Config Generator
+                        </a>
                     </div>
                 </nav>
             </header>
             <main>
-                <h1>Test</h1>
-                <p>Test</p>
                 {props.children}
             </main>
             <footer>
-
             </footer>
         </>
     )
