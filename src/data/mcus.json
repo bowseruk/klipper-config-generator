@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Octopus v1.1",
+        "id" : 0,
+        "carrier": false,
+        "supportCanboot": true,
+        "input": {
+            "usb2": true,
+            "uart": true,
+            "canbus": true,
+            "cm4io": false
+        },
+        "output": {
+            "usb2": 4,
+            "canbus": 1
+        }
+    }
+]

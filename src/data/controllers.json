@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Raspberry Pi 3B+",
+        "id" : 0,
+        "standalone" : true,
+        "output": {
+            "usb2": 4,
+            "ethernet": 1
+        }
+    },
+    {
+        "name": "Raspberry Pi 4B+ 1GB",
+        "id" : 1,
+        "standalone" : true,
+        "output": {
+            "usb3": 2,
+            "usb2": 2,
+            "ethernet": 1
+        }
+    },
+    {
+        "name": "Raspberry Pi 4B+ 2GB",
+        "id" : 2,
+        "standalone" : true,
+        "output": {
+            "usb3": 2,
+            "usb2": 2,
+            "ethernet": 1
+        }
+    },
+    {
+        "name": "Raspberry Pi 4B+ 4GB",
+        "id" : 3,
+        "standalone" : true,
+        "output": {
+            "usb3": 2,
+            "usb2": 2,
+            "ethernet": 1
+        }
+    },
+    {
+        "name": "Raspberry Pi 4B+ 8GB",
+        "id" : 4,
+        "standalone" : true,
+        "output": {
+            "usb3": 2,
+            "usb2": 2,
+            "ethernet": 1
+        }
+    },
+    {
+        "name": "Raspberry Pi CM4",
+        "id" : 5,
+        "standalone" : false,
+        "output": {
+            "cm4io" : 1
+        }
+    },
+    {
+        "name": "BTT CB1",
+        "id" : 6,
+        "standalone" : false,
+        "output": {
+            "cm4io" : 1
+        }
+    }
+]
